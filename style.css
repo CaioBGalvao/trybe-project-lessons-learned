@@ -1,0 +1,48 @@
+* {
+  scroll-behavior: smooth;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 15px;
+  color: rgb(38 119 119);
+  letter-spacing: 5px;
+  line-height: 15px;
+}
+
+body {
+  background-color: rgb(253 251 251);
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+}
+
+#minha-foto {
+  display: block;
+  margin: 7px;
+  border: 50%;
+  padding: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 200px;
+  position: relative;
+}
+
+.lado-direito {
+  float: right;
+  width: 200px;
+  position: relative;
+}
